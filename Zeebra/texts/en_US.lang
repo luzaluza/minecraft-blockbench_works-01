@@ -1,0 +1,3 @@
+entity.ibu_craft:zeebra.name=Zeebra
+item.spawn_egg.entity.ibu_craft:zeebra.name=Spawn Zeebra
+action.hint.exit.ibu_craft:zeebra=Tap sneak to dismount
