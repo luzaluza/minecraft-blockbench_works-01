@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Wolf",
+		"description": "Wolf Resource Pack",
+		"uuid": "195b7c93-8576-46b6-2659-8f98c49fca1b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Wolf",
+			"type": "resources",
+			"uuid": "e2436ed3-76bb-7150-940c-245d8a8a414e",
+			"version": [1, 0, 0]
+		}
+	]
+}
