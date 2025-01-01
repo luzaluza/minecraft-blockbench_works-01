@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Lizard",
+		"description": "Lizard Resource Pack",
+		"uuid": "a9ca7b26-fa33-4341-9df3-f9703df208f3",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Lizard",
+			"type": "resources",
+			"uuid": "f43c54bd-c762-a136-43c0-ff3200c126c1",
+			"version": [1, 0, 0]
+		}
+	]
+}
