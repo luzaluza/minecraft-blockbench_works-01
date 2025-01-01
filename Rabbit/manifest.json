@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Rabbit",
+		"description": "Rabbit Resource Pack",
+		"uuid": "94966875-c8b3-e0d9-071a-e26e01d3b0eb",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Rabbit",
+			"type": "resources",
+			"uuid": "7eae412f-f780-84f0-2900-743ec34c0607",
+			"version": [1, 0, 0]
+		}
+	]
+}
