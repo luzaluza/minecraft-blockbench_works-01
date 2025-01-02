@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cat",
+		"description": "Cat Resource Pack",
+		"uuid": "0644a4b0-aaec-f71c-9727-9aca085b0762",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Cat",
+			"type": "resources",
+			"uuid": "82139d9e-5eb5-a50f-7124-a2093cdbe9be",
+			"version": [1, 0, 0]
+		}
+	]
+}
