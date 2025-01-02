@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Villager",
+		"description": "Villager Resource Pack",
+		"uuid": "ae0c6a32-a39a-38e0-2188-a3d9db8e5549",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Villager",
+			"type": "resources",
+			"uuid": "d7e6b44c-e883-6c24-abcc-d216c66dd7f3",
+			"version": [1, 0, 0]
+		}
+	]
+}
