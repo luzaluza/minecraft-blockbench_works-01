@@ -1,0 +1,24 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"myname:snake": {
+				"events": {
+					"flop": {
+						"pitch": 1,
+						"sound": "mob.fish.flop",
+						"volume": 1
+					},
+					"hurt": "mob.fish.hurt",
+					"hurt.in.water": "mob.fish.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.fish.step",
+						"volume": 0.15
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}

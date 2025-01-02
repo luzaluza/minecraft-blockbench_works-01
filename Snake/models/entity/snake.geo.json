@@ -1,0 +1,69 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.snake",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0, 0, 13], "size": [4, 4, 7], "uv": [-1, 0]},
+						{"origin": [-2, 0, 1], "size": [4, 4, 7], "uv": [-1, 0]},
+						{"origin": [-1, 0, 25], "size": [2, 3, 7], "uv": [0, 0]},
+						{"origin": [0, 3, 0], "size": [0, 1, 6], "uv": [20, -6]},
+						{"origin": [0, 0, 3], "size": [0, 1, 2], "uv": [22, -1]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [-0.9992, 0.0008, -4], "size": [2, 2, 2], "uv": [-1, -1]},
+						{"origin": [-2, 0, -2], "size": [4, 4, 3], "uv": [11, 0]}
+					]
+				},
+				{
+					"name": "leftFin",
+					"parent": "body",
+					"pivot": [1, 1, 0],
+					"rotation": [0, 0, 35],
+					"cubes": [
+						{"origin": [0, 0, 0], "size": [2, 1, 2], "pivot": [-1, 0, 0], "rotation": [0, 0, -35], "uv": [24, 4]}
+					]
+				},
+				{
+					"name": "rightFin",
+					"parent": "body",
+					"pivot": [-1, 1, 0],
+					"rotation": [0, 0, -35],
+					"cubes": [
+						{"origin": [-1, 0, 0], "size": [2, 1, 2], "pivot": [2, 0, 0], "rotation": [0, 0, 35], "uv": [24, 1]}
+					]
+				},
+				{
+					"name": "tailfin",
+					"parent": "body",
+					"pivot": [0, 0, 8],
+					"cubes": [
+						{"origin": [-4, 0, 7], "size": [4, 4, 8], "pivot": [0, 0, -1], "rotation": [0, 15, 0], "uv": [14, -1]},
+						{"origin": [2, 0, 18], "size": [4, 4, 8], "pivot": [6, 0, 10], "rotation": [0, -12.5, 0], "uv": [14, -1]}
+					]
+				},
+				{
+					"name": "waist",
+					"parent": "body",
+					"pivot": [0, 0, 0]
+				}
+			]
+		}
+	]
+}
