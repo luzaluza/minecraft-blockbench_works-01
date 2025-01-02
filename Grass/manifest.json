@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Grass",
+		"description": "Grass Resource Pack",
+		"uuid": "61e31c02-fdb3-348e-e4f9-9dae607e6018",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Grass",
+			"type": "resources",
+			"uuid": "7ed27dc7-ffdf-61c7-d65e-dcd9c1124abe",
+			"version": [1, 0, 0]
+		}
+	]
+}
