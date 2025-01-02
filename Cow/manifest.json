@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cow",
+		"description": "Cow Resource Pack",
+		"uuid": "0bd99e61-5404-3493-cafa-6a6c3ef5b64f",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibuu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Cow",
+			"type": "resources",
+			"uuid": "ec931b2b-ddba-5570-8d49-bcc8e5411244",
+			"version": [1, 0, 0]
+		}
+	]
+}
