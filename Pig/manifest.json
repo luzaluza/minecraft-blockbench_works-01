@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Pig",
+		"description": "Pig Resource Pack",
+		"uuid": "bb26cc70-a6aa-a9be-b9ea-cb688b3024cb",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Pig",
+			"type": "resources",
+			"uuid": "7c84175a-1571-d8bd-e5e8-dc78c14eebf0",
+			"version": [1, 0, 0]
+		}
+	]
+}
