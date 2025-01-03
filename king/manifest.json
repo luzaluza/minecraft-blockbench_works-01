@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "king",
+		"description": "king Resource Pack",
+		"uuid": "ae3be930-e032-c185-d089-9824616a7a37",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "king",
+			"type": "resources",
+			"uuid": "3da917b9-ab69-d1b0-9c4d-2e102cd8ec7b",
+			"version": [1, 0, 0]
+		}
+	]
+}
