@@ -1,0 +1,3 @@
+entity.ibu_craft:kirby.name=kirby
+item.spawn_egg.entity.ibu_craft:kirby.name=Spawn kirby
+action.hint.exit.ibu_craft:kirby=Tap sneak to dismount

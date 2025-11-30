@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:kirby",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/kirby/kirby",
+				"saddled": "textures/entity/pig/pig_saddle",
+				"saddle": "textures/entity/kirby/saddle"
+			},
+			"geometry": {
+				"default": "geometry.kirby"
+			},
+			"animations": {
+				"setup": "animation.kirby.setup",
+				"walk": "animation.kirby.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.kirby.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.pig"],
+			"spawn_egg": {
+				"base_color": "#d64293",
+				"overlay_color": "#e1ce13"
+			}
+		}
+	}
+}
