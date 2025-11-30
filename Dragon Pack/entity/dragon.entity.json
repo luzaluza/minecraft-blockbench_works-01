@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:dragon",
+			"materials": {
+				"default": "ghast"
+			},
+			"textures": {
+				"default": "textures/entity/dragon/dragon",
+				"shooting": "textures/entity/dragon/shooting"
+			},
+			"geometry": {
+				"default": "geometry.dragon"
+			},
+			"spawn_egg": {
+				"base_color": "#e93433",
+				"overlay_color": "#707f86"
+			},
+			"animations": {
+				"move": "animation.dragon.move",
+				"scale": "animation.dragon.scale"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.ghast.move"
+				},
+				{
+					"scale": "controller.animation.ghast.scale"
+				}
+			],
+			"render_controllers": ["controller.render.ghast"]
+		}
+	}
+}
