@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "kirby",
+		"description": "kirby Behavior Pack",
+		"uuid": "1c2e4b99-77b7-edec-496d-04aa80ecb6b6",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "7a39df0b-bdf1-a6fc-4ccf-eef7fbeed5ad",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "6d38f8ab-65bb-9a48-1978-1be426023a67",
+			"version": [1, 0, 0]
+		}
+	]
+}
