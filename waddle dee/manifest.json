@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "waddle dee",
+		"description": "waddle dee Resource Pack",
+		"uuid": "9dc35b35-64a2-515e-b3b6-ed35ae5fff09",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "waddle dee",
+			"type": "resources",
+			"uuid": "2a9dd7ab-2c61-4b8a-0b86-048be6332cde",
+			"version": [1, 0, 0]
+		}
+	]
+}
