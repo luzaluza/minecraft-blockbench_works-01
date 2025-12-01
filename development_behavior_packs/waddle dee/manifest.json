@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "waddle dee",
+		"description": "waddle dee Behavior Pack",
+		"uuid": "f8415324-d89c-815f-7579-661b5777b2f9",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "f8a0209f-552e-89ad-70c5-c1a04f981072",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "9dc35b35-64a2-515e-b3b6-ed35ae5fff09",
+			"version": [1, 0, 0]
+		}
+	]
+}
