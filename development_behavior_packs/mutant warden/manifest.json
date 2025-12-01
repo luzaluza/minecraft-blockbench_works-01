@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "mutant warden",
+		"description": "mutant warden Behavior Pack",
+		"uuid": "5d3f9c0c-1bb0-1ab6-ac74-ea828097d20e",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "374bef69-80ac-4c8b-e892-5cdb1ca0ed72",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "c72cda16-6b67-c2e3-c2c9-5f1fb782651c",
+			"version": [1, 0, 0]
+		}
+	]
+}
