@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "mutant warden",
+		"description": "mutant warden Resource Pack",
+		"uuid": "c72cda16-6b67-c2e3-c2c9-5f1fb782651c",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "mutant warden",
+			"type": "resources",
+			"uuid": "77ea5a20-dd7e-6d13-3b2d-0516faf32a2e",
+			"version": [1, 0, 0]
+		}
+	]
+}
