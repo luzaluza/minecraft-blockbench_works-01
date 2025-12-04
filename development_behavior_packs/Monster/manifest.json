@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Monster",
+		"description": "Monster Behavior Pack",
+		"uuid": "8323086c-67b7-4371-baa9-7be7e8908418",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "b4d6fb2b-6c2b-d168-aafc-2a987c6f5f62",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8910f160-9268-7d6d-39bd-34d9165174b7",
+			"version": [1, 0, 0]
+		}
+	]
+}
