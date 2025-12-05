@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "sword robot",
+		"description": "sword robot Behavior Pack",
+		"uuid": "3b0f5f36-3b60-f556-6436-441d6df707f3",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "fdb38806-1196-2e66-1776-8fa84939b910",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "82ccbc5d-8116-b160-0676-e100c8dd40a9",
+			"version": [1, 0, 0]
+		}
+	]
+}
