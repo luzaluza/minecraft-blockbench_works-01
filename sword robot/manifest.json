@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "sword robot",
+		"description": "sword robot Resource Pack",
+		"uuid": "82ccbc5d-8116-b160-0676-e100c8dd40a9",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "sword robot",
+			"type": "resources",
+			"uuid": "152752f3-06d3-4847-e772-0d582e81550c",
+			"version": [1, 0, 0]
+		}
+	]
+}
