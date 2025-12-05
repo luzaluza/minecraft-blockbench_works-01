@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "rosetta",
+		"description": "rosetta Resource Pack",
+		"uuid": "8ee50764-a633-2093-1ab8-8b225d1a0a82",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "rosetta",
+			"type": "resources",
+			"uuid": "390c0a8b-4457-af3b-086e-0b88c96530b9",
+			"version": [1, 0, 0]
+		}
+	]
+}
