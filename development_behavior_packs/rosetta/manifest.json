@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "rosetta",
+		"description": "rosetta Behavior Pack",
+		"uuid": "15e4177b-2de6-701d-0adb-227af7e857ee",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "d0250954-ccf3-bf7d-457b-85defd950565",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8ee50764-a633-2093-1ab8-8b225d1a0a82",
+			"version": [1, 0, 0]
+		}
+	]
+}
