@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "miraidon",
+		"description": "miraidon Resource Pack",
+		"uuid": "b8c370d8-7522-09c0-782f-77e05b629f2b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "miraidon",
+			"type": "resources",
+			"uuid": "e499f4ed-6314-fd94-77a6-97511a9af0b7",
+			"version": [1, 0, 0]
+		}
+	]
+}
