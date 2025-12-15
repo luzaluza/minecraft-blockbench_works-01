@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Nether knight",
+		"description": "Nether knight Behavior Pack",
+		"uuid": "332fd9ac-56e7-15ac-dedd-d5376d6974eb",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "4ff68f75-17bd-bfe4-673a-91ab3b6b36f3",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a3a40f6e-3ee6-a113-a1a4-551704c24a08",
+			"version": [1, 0, 0]
+		}
+	]
+}
