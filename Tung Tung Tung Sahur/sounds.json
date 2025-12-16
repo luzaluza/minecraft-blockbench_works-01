@@ -1,0 +1,20 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"ibu_craft:tung_tung_tung_sahur": {
+				"events": {
+					"ambient": "mob.zombie_villager.say",
+					"death": "mob.zombie_villager.death",
+					"hurt": "mob.zombie_villager.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}

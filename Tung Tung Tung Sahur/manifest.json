@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Tung Tung Tung Sahur",
+		"description": "Tung Tung Tung Sahur Resource Pack",
+		"uuid": "ceea3ff3-9baf-9c5f-aba0-e28ad8d65721",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Tung Tung Tung Sahur",
+			"type": "resources",
+			"uuid": "4f4fb5d4-69e4-01d4-8558-3af2148f97ee",
+			"version": [1, 0, 0]
+		}
+	]
+}
