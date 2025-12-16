@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Tung Tung Tung Sahur",
+		"description": "Tung Tung Tung Sahur Behavior Pack",
+		"uuid": "35e39151-c5c9-8680-39c2-f3a0447b5288",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "87b8a0dd-a3db-cc81-7039-6955a7089e10",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ceea3ff3-9baf-9c5f-aba0-e28ad8d65721",
+			"version": [1, 0, 0]
+		}
+	]
+}
