@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "End Dragon",
+		"description": "End Dragon Behavior Pack",
+		"uuid": "57284f68-3ce4-8344-7098-2efb129a77ae",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "70230fee-0ee6-ff51-5c82-a699ef7187b6",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "5090a9d3-c319-2c55-a575-3f4dba6add8f",
+			"version": [1, 0, 0]
+		}
+	]
+}
