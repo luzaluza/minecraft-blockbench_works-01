@@ -1,0 +1,22 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"ibu_craft:tralallero_tralalal": {
+				"events": {
+					"ambient": "mob.zoglin.idle",
+					"angry": "mob.zoglin.angry",
+					"attack": "mob.zoglin.attack",
+					"death": "mob.zoglin.death",
+					"hurt": "mob.zoglin.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zoglin.step",
+						"volume": 0.15
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}

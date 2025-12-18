@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:tralallero_tralalal",
+			"materials": {
+				"default": "zoglin"
+			},
+			"textures": {
+				"default": "textures/entity/tralallero_tralalal"
+			},
+			"geometry": {
+				"default": "geometry.tralallero_tralalal"
+			},
+			"spawn_egg": {
+				"base_color": "#1446f6",
+				"overlay_color": "#f4fbc7"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos_right_side = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+					"variable.tcos_left_side = -variable.tcos_right_side;",
+					"variable.attack_head_rot =  Math.sin(variable.attack_time * 180.0) * -37.3;"
+				],
+				"animate": [
+					"walk",
+					"look_at_target",
+					{
+						"attack": "variable.has_target && variable.attack_time >= 0.0"
+					},
+					{
+						"hoglin_baby_scaling": "query.is_baby"
+					}
+				]
+			},
+			"animations": {
+				"walk": "animation.tralallero_tralalal.walk",
+				"look_at_target": "animation.tralallero_tralalal.look_at_target",
+				"attack": "animation.tralallero_tralalal.attack",
+				"hoglin_baby_scaling": "animation.tralallero_tralalal.baby_scaling"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}
