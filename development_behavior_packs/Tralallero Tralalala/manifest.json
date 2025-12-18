@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Tralallero Tralalala",
+		"description": "Tralallero Tralalala Behavior Pack",
+		"uuid": "5b0e96fd-7966-a7ba-6a62-61b59afc83c9",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "a48038f3-47e9-e0a6-f2d4-8e3bf6e21e33",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "53555ae3-0a96-cbd2-72ca-c9e3b22c16ab",
+			"version": [1, 0, 0]
+		}
+	]
+}
