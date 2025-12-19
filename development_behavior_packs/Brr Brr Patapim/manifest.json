@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Brr Brr Patapim",
+		"description": "Brr Brr Patapim Behavior Pack",
+		"uuid": "c9dbdcaf-9f4f-5674-c6e0-a0120afeba26",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "23a1324e-4245-8c96-8be1-c16efedae426",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a31738eb-afd7-0b11-593e-5e0d6169c297",
+			"version": [1, 0, 0]
+		}
+	]
+}
