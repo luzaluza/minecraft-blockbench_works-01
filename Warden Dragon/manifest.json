@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Warden Dragon",
+		"description": "Warden Dragon Resource Pack",
+		"uuid": "ae88d21f-d655-bccf-777a-b01502a8f30d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Warden Dragon",
+			"type": "resources",
+			"uuid": "94634118-02a4-4188-49d9-33d150f4c585",
+			"version": [1, 0, 0]
+		}
+	]
+}
