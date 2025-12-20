@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Warden Dragon",
+		"description": "Warden Dragon Behavior Pack",
+		"uuid": "82495fbd-d98c-dadf-612e-047d0361c15d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "a8368ed8-b390-22fc-3fd6-5906b6c5d7c6",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ae88d21f-d655-bccf-777a-b01502a8f30d",
+			"version": [1, 0, 0]
+		}
+	]
+}
