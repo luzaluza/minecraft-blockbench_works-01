@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Redstone Golem",
+		"description": "Redstone Golem Behavior Pack",
+		"uuid": "876dbc9b-9658-2581-3714-c6684a037013",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "2c81562a-deaf-d37a-38a1-653ed78a7d5b",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "3a43fac8-de24-3257-ef9d-6af2b335aacd",
+			"version": [1, 0, 0]
+		}
+	]
+}
