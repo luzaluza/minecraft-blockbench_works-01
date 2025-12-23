@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Redstone Golem",
+		"description": "Redstone Golem Resource Pack",
+		"uuid": "3a43fac8-de24-3257-ef9d-6af2b335aacd",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Redstone Golem",
+			"type": "resources",
+			"uuid": "a4802b7c-9208-17fd-dc73-b6e0e9df9a2a",
+			"version": [1, 0, 0]
+		}
+	]
+}
