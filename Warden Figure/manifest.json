@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Warden Figure",
+		"description": "Warden Figure Resource Pack",
+		"uuid": "ce570d74-e617-f18e-db0b-7a7069f4df70",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Warden Figure",
+			"type": "resources",
+			"uuid": "b799217a-a615-dda5-8712-5f0136cdcae5",
+			"version": [1, 0, 0]
+		}
+	]
+}
