@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Warden Figure",
+		"description": "Warden Figure Behavior Pack",
+		"uuid": "c5fce6ed-490b-e8bb-7566-711c61be036d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "fedd3376-7c0d-8e43-e49c-b72317fb28c6",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ce570d74-e617-f18e-db0b-7a7069f4df70",
+			"version": [1, 0, 0]
+		}
+	]
+}
