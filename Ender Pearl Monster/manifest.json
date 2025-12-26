@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Ender Pearl Monster",
+		"description": "Ender Pearl Monster Resource Pack",
+		"uuid": "8f994d32-2f16-3cc5-47d5-28e395a776c5",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Ender Pearl Monster",
+			"type": "resources",
+			"uuid": "e4388b48-f863-554e-2685-cf95a702ba87",
+			"version": [1, 0, 0]
+		}
+	]
+}
