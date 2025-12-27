@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Neldora",
+		"description": "Neldora Resource Pack",
+		"uuid": "f59cc45f-bdf7-5a25-8379-7e45a3872840",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Neldora",
+			"type": "resources",
+			"uuid": "afb0d7d1-ccb1-e389-dbfd-293cc864aa8e",
+			"version": [1, 0, 0]
+		}
+	]
+}
