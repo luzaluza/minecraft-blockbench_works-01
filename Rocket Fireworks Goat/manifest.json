@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Rocket Fireworks Goat",
+		"description": "Rocket Fireworks Goat Resource Pack",
+		"uuid": "181c1aff-e02f-277f-9604-c6e89abf1da8",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Rocket Fireworks Goat",
+			"type": "resources",
+			"uuid": "11d8315c-1e10-3805-38ca-5168d0211989",
+			"version": [1, 0, 0]
+		}
+	]
+}
