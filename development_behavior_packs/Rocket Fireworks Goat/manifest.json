@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Rocket Fireworks Goat",
+		"description": "Rocket Fireworks Goat Behavior Pack",
+		"uuid": "60cc8afe-9ea5-0c62-5db1-48009da27ff9",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "81fd8072-3e06-f780-8610-56f27b99eece",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "181c1aff-e02f-277f-9604-c6e89abf1da8",
+			"version": [1, 0, 0]
+		}
+	]
+}
