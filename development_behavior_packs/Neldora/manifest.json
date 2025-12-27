@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Neldora",
+		"description": "Neldora Behavior Pack",
+		"uuid": "c98cf9b1-d9ef-a166-8861-c28e727dff67",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "78ca951f-7d07-b789-bfb4-85592ee56d9c",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "f59cc45f-bdf7-5a25-8379-7e45a3872840",
+			"version": [1, 0, 0]
+		}
+	]
+}
