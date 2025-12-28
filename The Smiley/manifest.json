@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "The Smiley",
+		"description": "The Smiley Resource Pack",
+		"uuid": "a2400401-03b0-0990-6298-ad15dd1ce805",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "The Smiley",
+			"type": "resources",
+			"uuid": "6bd7c12a-fbee-6a5d-a98e-e229a8159875",
+			"version": [1, 0, 0]
+		}
+	]
+}
