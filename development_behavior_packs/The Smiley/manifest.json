@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "The Smiley",
+		"description": "The Smiley Behavior Pack",
+		"uuid": "dfc3925f-ec20-77b7-dcf2-1ea479d9e448",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "1ca62b77-4881-f4b7-c6a1-8aaa20ccc903",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a2400401-03b0-0990-6298-ad15dd1ce805",
+			"version": [1, 0, 0]
+		}
+	]
+}
