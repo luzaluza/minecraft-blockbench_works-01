@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Upgraded Golem",
+		"description": "Upgraded Golem Behavior Pack",
+		"uuid": "99f9be6e-8fbf-bfc2-057b-d03053f85e84",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "ad8e69f0-cce5-5ea6-b643-69b319a6b1c0",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "acf25910-af09-2cd7-75f4-7f7c1566f843",
+			"version": [1, 0, 0]
+		}
+	]
+}
