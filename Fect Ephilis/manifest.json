@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Fect Ephilis",
+		"description": "Fect Ephilis Resource Pack",
+		"uuid": "c15b037b-4bb7-cf45-5b3f-728a91b3fa97",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Fect Ephilis",
+			"type": "resources",
+			"uuid": "95962435-f5a5-e622-c5cb-e1e1bdcf636f",
+			"version": [1, 0, 0]
+		}
+	]
+}

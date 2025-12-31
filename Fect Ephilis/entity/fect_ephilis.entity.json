@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:fect_ephilis",
+			"materials": {
+				"default": "ghast"
+			},
+			"textures": {
+				"default": "textures/entity/fect_ephilis/fect_ephilis",
+				"shooting": "textures/entity/fect_ephilis/shooting"
+			},
+			"geometry": {
+				"default": "geometry.fect_ephilis"
+			},
+			"spawn_egg": {
+				"base_color": "#87a6b5",
+				"overlay_color": "#417484"
+			},
+			"animations": {
+				"move": "animation.fect_ephilis.move",
+				"scale": "animation.fect_ephilis.scale"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.ghast.move"
+				},
+				{
+					"scale": "controller.animation.ghast.scale"
+				}
+			],
+			"render_controllers": ["controller.render.ghast"]
+		}
+	}
+}
