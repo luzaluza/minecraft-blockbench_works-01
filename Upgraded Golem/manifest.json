@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Upgraded Golem",
+		"description": "Upgraded Golem Resource Pack",
+		"uuid": "acf25910-af09-2cd7-75f4-7f7c1566f843",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Upgraded Golem",
+			"type": "resources",
+			"uuid": "e4005fd5-344a-b7aa-38ca-ddf1c32f4a99",
+			"version": [1, 0, 0]
+		}
+	]
+}
