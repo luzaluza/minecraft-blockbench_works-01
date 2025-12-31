@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Baooraste",
+		"description": "Baooraste Resource Pack",
+		"uuid": "8acaf527-994a-0ef1-e241-dc2e5b5dbdda",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Baooraste",
+			"type": "resources",
+			"uuid": "465ddc6e-f224-91ed-8fe0-877a9bdfbcee",
+			"version": [1, 0, 0]
+		}
+	]
+}

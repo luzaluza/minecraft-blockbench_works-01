@@ -1,0 +1,23 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"ibu_craft:baooraste": {
+				"events": {
+					"ambient": "mob.hoglin.ambient",
+					"angry": "mob.hoglin.angry",
+					"attack": "mob.hoglin.attack",
+					"death": "mob.hoglin.death",
+					"hurt": "mob.hoglin.hurt",
+					"retreat": "mob.hoglin.retreat",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.hoglin.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}
