@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Zeebra",
+		"description": "Zeebra Behavior Pack",
+		"uuid": "865bdfe1-eb38-9085-d781-f5851444aa18",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "1d48659b-913a-d29e-3661-f276f35fbaaa",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a29e0f03-cf87-0bd6-33dd-a88835e3b31d",
+			"version": [1, 0, 0]
+		}
+	]
+}
