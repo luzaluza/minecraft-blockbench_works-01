@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Baooraste",
+		"description": "Baooraste Behavior Pack",
+		"uuid": "207abcc4-7bd8-ec4d-87f4-aa1ce0fdb740",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "4adfa0e8-03c7-aada-7ffc-386d4d19739c",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8acaf527-994a-0ef1-e241-dc2e5b5dbdda",
+			"version": [1, 0, 0]
+		}
+	]
+}
