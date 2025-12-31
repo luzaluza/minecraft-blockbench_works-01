@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Fect Ephilis",
+		"description": "Fect Ephilis Behavior Pack",
+		"uuid": "b353293b-1171-6169-a0ac-439f726b1b8b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "a73e6c48-a14c-2a4a-e92a-7715f29ada04",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "c15b037b-4bb7-cf45-5b3f-728a91b3fa97",
+			"version": [1, 0, 0]
+		}
+	]
+}
