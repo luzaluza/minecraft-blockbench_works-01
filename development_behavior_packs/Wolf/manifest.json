@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Wolf",
+		"description": "Wolf Behavior Pack",
+		"uuid": "1ef6b739-de1f-5b51-3bf6-76a83607cdec",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "60d7ad14-3204-660c-401d-2cc6bb516a23",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "195b7c93-8576-46b6-2659-8f98c49fca1b",
+			"version": [1, 0, 0]
+		}
+	]
+}
