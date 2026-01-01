@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Rabbit",
+		"description": "Rabbit Behavior Pack",
+		"uuid": "f97db946-fa94-5ecd-d45d-03d81bd4f112",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "950bfecf-8c48-d1bc-631a-d94d9ff7d6a0",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "94966875-c8b3-e0d9-071a-e26e01d3b0eb",
+			"version": [1, 0, 0]
+		}
+	]
+}
