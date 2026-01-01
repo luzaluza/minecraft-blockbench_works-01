@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:lizard",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"red": "textures/entity/lizard/red",
+				"arctic": "textures/entity/lizard/arctic"
+			},
+			"geometry": {
+				"default": "geometry.lizard"
+			},
+			"animations": {
+				"walk": "animation.lizard.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.lizard.baby_transform",
+				"crouch": "animation.lizard.crouch",
+				"sleep": "animation.lizard.sleep",
+				"setup": "animation.lizard.setup",
+				"sit": "animation.lizard.sit",
+				"wiggle": "animation.lizard.wiggle",
+				"stuck": "animation.lizard.stuck",
+				"pounce": "animation.lizard.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": ["controller.render.fox"],
+			"spawn_egg": {
+				"base_color": "#f68888",
+				"overlay_color": "#339a85"
+			}
+		}
+	}
+}
