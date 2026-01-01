@@ -1,0 +1,3 @@
+entity.ibu_craft:dragon_fruit.name=Dragon Fruit
+item.spawn_egg.entity.ibu_craft:dragon_fruit.name=Spawn Dragon Fruit
+action.hint.exit.ibu_craft:dragon_fruit=Tap sneak to dismount

@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dragon_fruit",
+				"texture_width": 64,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.25,
+				"visible_bounds_offset": [0, 0.875, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 13, 2],
+					"cubes": [
+						{"origin": [-1, 16, -6], "size": [6, 6, 10], "pivot": [2, 16, 1], "rotation": [90, 45, 0], "uv": [28, 6]},
+						{"origin": [-2, 19, -5], "size": [4, 4, 10], "pivot": [0, 18, 2], "rotation": [90, 0, 0], "uv": [29, 6]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 12, -6],
+					"cubes": [
+						{"origin": [-4, 6, -5], "size": [8, 8, 8], "uv": [0, 0]},
+						{"origin": [-2, 21, -15], "size": [4, 3, 1], "uv": [16, 16]}
+					],
+					"locators": {
+						"lead": [0, 14, -6]
+					}
+				},
+				{
+					"name": "leg0",
+					"parent": "body",
+					"pivot": [-3, 6, 7],
+					"cubes": [
+						{"origin": [-7, 5, -3], "size": [2, 6, 2], "pivot": [-4, 5, -8], "rotation": [0, 0, 10], "uv": [4, 18]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "body",
+					"pivot": [3, 6, 7],
+					"mirror": true,
+					"cubes": [
+						{"origin": [5, 5, -3], "size": [2, 6, 2], "pivot": [4, 5, -8], "rotation": [2.49762, 0.10901, -17.49762], "uv": [2, 18]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "body",
+					"pivot": [-3, 6, -5],
+					"cubes": [
+						{"origin": [-3, 0, -2], "size": [2, 6, 2], "uv": [4, 18]}
+					]
+				},
+				{
+					"name": "leg3",
+					"parent": "body",
+					"pivot": [3, 6, -5],
+					"mirror": true,
+					"cubes": [
+						{"origin": [1, 0, -2], "size": [2, 6, 2], "uv": [4, 18]}
+					]
+				}
+			]
+		}
+	]
+}

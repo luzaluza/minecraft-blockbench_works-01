@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:dragon_fruit",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/dragon_fruit/dragon_fruit",
+				"saddled": "textures/entity/pig/pig_saddle",
+				"saddle": "textures/entity/dragon_fruit/saddle"
+			},
+			"geometry": {
+				"default": "geometry.dragon_fruit"
+			},
+			"animations": {
+				"setup": "animation.dragon_fruit.setup",
+				"walk": "animation.dragon_fruit.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.dragon_fruit.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.pig"],
+			"spawn_egg": {
+				"base_color": "#060f04",
+				"overlay_color": "#067761"
+			}
+		}
+	}
+}
