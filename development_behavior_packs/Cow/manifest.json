@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cow",
+		"description": "Cow Behavior Pack",
+		"uuid": "25f071a8-ed51-238c-11d1-908f889387f3",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibuu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "4af1e81a-5148-07c5-8000-822e5d397c49",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "0bd99e61-5404-3493-cafa-6a6c3ef5b64f",
+			"version": [1, 0, 0]
+		}
+	]
+}
