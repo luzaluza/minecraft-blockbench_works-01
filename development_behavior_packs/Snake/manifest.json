@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Snake",
+		"description": "Snake Behavior Pack",
+		"uuid": "52dc4947-cd3c-1aca-228d-853e77f8cb6e",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "683868f3-9db3-e40c-201d-e90543d2ffcc",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "e238daa1-a83d-4051-ce6b-6875fe6bf591",
+			"version": [1, 0, 0]
+		}
+	]
+}
