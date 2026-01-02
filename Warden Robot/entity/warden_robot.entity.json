@@ -1,0 +1,30 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:warden_robot",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/warden_robot"
+			},
+			"geometry": {
+				"default": "geometry.warden_robot"
+			},
+			"render_controllers": ["controller.render.default"],
+			"animations": {
+				"drive": "animation.warden_robot.drive"
+			},
+			"scripts": {
+				"initialize": ["variable.steering = 0;"],
+				"pre_animation": ["query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"],
+				"animate": ["drive"]
+			},
+			"spawn_egg": {
+				"base_color": "#5701d3",
+				"overlay_color": "#4cd34f"
+			}
+		}
+	}
+}
