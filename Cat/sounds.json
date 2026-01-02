@@ -1,0 +1,26 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"ibu_craft:cat": {
+				"events": {
+					"ambient": "mob.cat.straymeow",
+					"ambient.tame": "mob.cat.meow",
+					"death": {
+						"pitch": 0.9,
+						"sound": "mob.cat.hit",
+						"volume": 0.5
+					},
+					"eat": "mob.cat.eat",
+					"hurt": {
+						"sound": "mob.cat.hit",
+						"volume": 0.45
+					},
+					"purr": "mob.cat.purr",
+					"purreow": "mob.cat.purreow"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}
