@@ -1,0 +1,68 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:grass",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "shulker"
+			},
+			"textures": {
+				"undyed": "textures/entity/grass/undyed",
+				"white": "textures/entity/grass/white",
+				"orange": "textures/entity/grass/orange",
+				"magenta": "textures/entity/grass/magenta",
+				"light_blue": "textures/entity/grass/light_blue",
+				"yellow": "textures/entity/grass/yellow",
+				"lime": "textures/entity/grass/lime",
+				"pink": "textures/entity/grass/pink",
+				"gray": "textures/entity/grass/gray",
+				"silver": "textures/entity/grass/silver",
+				"cyan": "textures/entity/grass/cyan",
+				"purple": "textures/entity/grass/purple",
+				"blue": "textures/entity/grass/blue",
+				"brown": "textures/entity/grass/brown",
+				"green": "textures/entity/grass/green",
+				"red": "textures/entity/grass/red",
+				"black": "textures/entity/grass/black"
+			},
+			"geometry": {
+				"default": "geometry.grass"
+			},
+			"spawn_egg": {
+				"base_color": "#7b461e",
+				"overlay_color": "#d0e0b5"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.Shulker.LidPositionFactor = 180 * (0.5 + variable.Shulker.PeekAmount);",
+					"variable.Shulker.LidRotationFactor = -1 + Math.sin(180 * (0.5 + variable.Shulker.PeekAmount));",
+					"variable.Shulker.UpFacing = variable.Shulker.FacingDirection == 1;",
+					"variable.Shulker.NorthFacing = variable.Shulker.FacingDirection == 2;",
+					"variable.Shulker.SouthFacing = variable.Shulker.FacingDirection == 3;",
+					"variable.Shulker.WestFacing = variable.Shulker.FacingDirection == 4;",
+					"variable.Shulker.EastFacing = variable.Shulker.FacingDirection == 5;",
+					"variable.Shulker.XPreRotation = variable.Shulker.UpFacing * 180 + variable.Shulker.NorthFacing * 90 - variable.Shulker.SouthFacing * 90;",
+					"variable.Shulker.ZPreRotation = variable.Shulker.NorthFacing * 180 + variable.Shulker.WestFacing * 90 - variable.Shulker.EastFacing * 90;",
+					"variable.Shulker.XOffset = -variable.Shulker.WestFacing * 7.99 + variable.Shulker.EastFacing * 7.99;",
+					"variable.Shulker.YOffset = variable.Shulker.UpFacing * 16 + variable.Shulker.NorthFacing * 7.99 + variable.Shulker.SouthFacing * 7.99 + variable.Shulker.WestFacing * 7.99 + variable.Shulker.EastFacing * 7.99;",
+					"variable.Shulker.ZOffset = variable.Shulker.NorthFacing * 7.99 - variable.Shulker.SouthFacing * 7.99;"
+				]
+			},
+			"animations": {
+				"facing": "animation.grass.facing",
+				"move": "animation.grass.move",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"animation_controllers": [
+				{
+					"facing": "controller.animation.shulker.facing"
+				},
+				{
+					"move": "controller.animation.shulker.move"
+				}
+			],
+			"render_controllers": ["controller.render.shulker"]
+		}
+	}
+}
