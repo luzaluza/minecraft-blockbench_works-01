@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cat",
+		"description": "Cat Behavior Pack",
+		"uuid": "c9406646-3f3d-4ea6-cd39-cdb14e62f7d8",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "fe2c25f9-4ee8-74d4-abf3-cba352c656ab",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "0644a4b0-aaec-f71c-9727-9aca085b0762",
+			"version": [1, 0, 0]
+		}
+	]
+}
