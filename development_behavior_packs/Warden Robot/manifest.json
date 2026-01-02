@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Warden Robot",
+		"description": "Warden Robot Behavior Pack",
+		"uuid": "c2cc2d6c-f976-7fed-c2cf-516e9feb2dd0",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "c8de88e3-41a2-3a34-f1a2-fe549f50f945",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "3efc8dac-0980-52d0-ce4d-6e5a45757f80",
+			"version": [1, 0, 0]
+		}
+	]
+}
