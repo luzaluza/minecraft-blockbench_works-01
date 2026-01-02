@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dragon Fruit",
+		"description": "Dragon Fruit Behavior Pack",
+		"uuid": "8682b1ca-3df7-32d0-a660-23cba752a819",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "f547ea85-556b-28b9-d955-b97f4e70d09b",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "aaa6e80e-d8dd-62ed-da96-d11f0bde4fab",
+			"version": [1, 0, 0]
+		}
+	]
+}
