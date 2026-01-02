@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Villager",
+		"description": "Villager Behavior Pack",
+		"uuid": "d06e0d4c-df78-ae3e-3ba8-76ac77846d6d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "bdd0a626-9c3e-41b8-3afd-9c94d25931dd",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ae0c6a32-a39a-38e0-2188-a3d9db8e5549",
+			"version": [1, 0, 0]
+		}
+	]
+}
