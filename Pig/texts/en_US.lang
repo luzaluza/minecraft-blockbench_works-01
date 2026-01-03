@@ -1,0 +1,3 @@
+entity.ibu_craft:pig.name=Pig
+item.spawn_egg.entity.ibu_craft:pig.name=Spawn Pig
+action.hint.exit.ibu_craft:pig=Tap sneak to dismount
