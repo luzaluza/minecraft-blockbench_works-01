@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Pig",
+		"description": "Pig Behavior Pack",
+		"uuid": "1854f94f-f603-f972-b7d5-5db690d24d03",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "ab57c7cf-f635-e672-10b0-a7476b3423b7",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "bb26cc70-a6aa-a9be-b9ea-cb688b3024cb",
+			"version": [1, 0, 0]
+		}
+	]
+}
