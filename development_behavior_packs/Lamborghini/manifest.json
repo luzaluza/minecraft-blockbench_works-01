@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Lamborghini",
+		"description": "Lamborghini Behavior Pack",
+		"uuid": "09f58ff5-4c1f-f312-17fc-82b1dfcee04b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "4569fe62-07fe-cd30-1329-8366c9657ad6",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "73ebd939-b0fb-ecbe-a90d-d15c4152238d",
+			"version": [1, 0, 0]
+		}
+	]
+}
