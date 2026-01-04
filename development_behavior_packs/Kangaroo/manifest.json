@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Kangaroo",
+		"description": "Kangaroo Behavior Pack",
+		"uuid": "f1e49e5e-9487-4b58-0962-ac79784f19d6",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "d7e43772-fedd-9069-ae79-659d96bf65f6",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b5cc5e18-7432-5297-fe59-01f535142905",
+			"version": [1, 0, 0]
+		}
+	]
+}
