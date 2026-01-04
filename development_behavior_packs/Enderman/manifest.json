@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Enderman",
+		"description": "Enderman Behavior Pack",
+		"uuid": "5800f3ca-61e9-5711-12ee-40d41e5770f5",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "e064c34a-75d0-0fb3-6740-653bfeac85c3",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "9537b5cd-89a1-2946-3941-5761e6146ffd",
+			"version": [1, 0, 0]
+		}
+	]
+}
