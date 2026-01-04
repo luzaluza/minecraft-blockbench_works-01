@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Enderman",
+		"description": "Enderman Resource Pack",
+		"uuid": "9537b5cd-89a1-2946-3941-5761e6146ffd",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Enderman",
+			"type": "resources",
+			"uuid": "cae876d7-3e71-339b-efaa-306872ce03e1",
+			"version": [1, 0, 0]
+		}
+	]
+}
