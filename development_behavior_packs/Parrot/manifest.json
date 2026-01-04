@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Parrot",
+		"description": "Parrot Behavior Pack",
+		"uuid": "a4500de0-d959-5233-729c-a81e3deb6967",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "4a4279b5-172b-bdf6-41e1-48bd4a5282f0",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "fbd9df15-f7fb-b25a-5a97-25a3b5418d05",
+			"version": [1, 0, 0]
+		}
+	]
+}
