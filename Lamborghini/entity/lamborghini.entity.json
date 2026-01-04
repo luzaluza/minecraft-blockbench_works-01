@@ -1,0 +1,30 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "biu_craft:lamborghini",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/lamborghini"
+			},
+			"geometry": {
+				"default": "geometry.lamborghini"
+			},
+			"render_controllers": ["controller.render.default"],
+			"animations": {
+				"drive": "animation.lamborghini.drive"
+			},
+			"scripts": {
+				"initialize": ["variable.steering = 0;"],
+				"pre_animation": ["query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"],
+				"animate": ["drive"]
+			},
+			"spawn_egg": {
+				"base_color": "#0c6e00",
+				"overlay_color": "#49ff00"
+			}
+		}
+	}
+}

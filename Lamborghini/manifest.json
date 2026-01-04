@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Lamborghini",
+		"description": "Lamborghini Resource Pack",
+		"uuid": "73ebd939-b0fb-ecbe-a90d-d15c4152238d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Lamborghini",
+			"type": "resources",
+			"uuid": "8b9d4156-7106-d9aa-a021-5bfaa8c94bfd",
+			"version": [1, 0, 0]
+		}
+	]
+}
