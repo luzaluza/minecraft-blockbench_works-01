@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Parrot",
+		"description": "Parrot Resource Pack",
+		"uuid": "fbd9df15-f7fb-b25a-5a97-25a3b5418d05",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Parrot",
+			"type": "resources",
+			"uuid": "5a169bfc-cbde-4954-7a88-3bb3baaf6bf9",
+			"version": [1, 0, 0]
+		}
+	]
+}
