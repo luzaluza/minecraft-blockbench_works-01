@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Kangaroo",
+		"description": "Kangaroo Resource Pack",
+		"uuid": "b5cc5e18-7432-5297-fe59-01f535142905",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Kangaroo",
+			"type": "resources",
+			"uuid": "def550cd-d30d-43aa-2d7a-a8f35dae44b2",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:kangaroo",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"brown": "textures/entity/kangaroo/brown",
+				"white": "textures/entity/kangaroo/white",
+				"black": "textures/entity/kangaroo/black",
+				"white_splotched": "textures/entity/kangaroo/white_splotched",
+				"gold": "textures/entity/kangaroo/gold",
+				"salt": "textures/entity/kangaroo/salt",
+				"toast": "textures/entity/kangaroo/toast"
+			},
+			"geometry": {
+				"default": "geometry.kangaroo"
+			},
+			"animations": {
+				"move": "animation.kangaroo.move",
+				"baby_transform": "animation.kangaroo.baby_transform",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.rabbit.general"
+				},
+				{
+					"baby": "controller.animation.rabbit.baby"
+				}
+			],
+			"render_controllers": ["controller.render.rabbit"],
+			"spawn_egg": {
+				"base_color": "#cf8606",
+				"overlay_color": "#e9ae31"
+			}
+		}
+	}
+}

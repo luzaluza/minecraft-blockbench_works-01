@@ -1,0 +1,15 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"ibu_craft:kangaroo": {
+				"events": {
+					"ambient": "mob.rabbit.idle",
+					"death": "mob.rabbit.death",
+					"hurt": "mob.rabbit.hurt"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 0.8
+			}
+		}
+	}
+}
