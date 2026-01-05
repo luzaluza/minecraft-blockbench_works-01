@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Monster Enderman",
+		"description": "Monster Enderman Behavior Pack",
+		"uuid": "8d28e1c8-70fb-f777-f596-64d1e052b014",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "954f2fd3-b487-679c-9855-1e940367eb5e",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "07b612bf-e304-228a-dbcc-df3924879853",
+			"version": [1, 0, 0]
+		}
+	]
+}
