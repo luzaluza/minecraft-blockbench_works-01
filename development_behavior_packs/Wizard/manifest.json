@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Wizard",
+		"description": "Wizard Behavior Pack",
+		"uuid": "cb992e73-8984-1be9-113b-c4e840d614f2",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "658e86eb-648f-e205-2b70-f1207a5e81e6",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "56c3c816-f5ae-afc2-54ad-9249d5b39080",
+			"version": [1, 0, 0]
+		}
+	]
+}
