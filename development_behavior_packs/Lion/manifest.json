@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Lion",
+		"description": "Lion Behavior Pack",
+		"uuid": "3181e526-42de-505a-a839-9539183a6a7e",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "ba70ebf0-ab54-2670-0720-0fd29f513717",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "5ce280c5-0bb0-e3d9-1d99-bcf50c2d5ea1",
+			"version": [1, 0, 0]
+		}
+	]
+}
