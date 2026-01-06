@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Lion",
+		"description": "Lion Resource Pack",
+		"uuid": "5ce280c5-0bb0-e3d9-1d99-bcf50c2d5ea1",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Lion",
+			"type": "resources",
+			"uuid": "c4729f62-dca0-e279-fa65-cce71f200e1a",
+			"version": [1, 0, 0]
+		}
+	]
+}
