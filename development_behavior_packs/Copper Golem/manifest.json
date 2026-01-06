@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Copper Golem",
+		"description": "Copper Golem Behavior Pack",
+		"uuid": "214b8040-b192-0844-ba24-2b73e0e8f963",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "ffdbf764-1cd2-c1fd-7ac9-5935dd2fe2bb",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "2202b985-bdcb-e96e-03cc-5a6da1b65d4f",
+			"version": [1, 0, 0]
+		}
+	]
+}
