@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Wizard",
+		"description": "Wizard Resource Pack",
+		"uuid": "56c3c816-f5ae-afc2-54ad-9249d5b39080",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Wizard",
+			"type": "resources",
+			"uuid": "528b09eb-7419-e57c-6381-eb37c590cbf5",
+			"version": [1, 0, 0]
+		}
+	]
+}
