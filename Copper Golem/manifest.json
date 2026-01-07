@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Copper Golem",
+		"description": "Copper Golem Resource Pack",
+		"uuid": "2202b985-bdcb-e96e-03cc-5a6da1b65d4f",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Copper Golem",
+			"type": "resources",
+			"uuid": "d894a42b-dc97-892c-21bb-b75992ec6280",
+			"version": [1, 0, 0]
+		}
+	]
+}
