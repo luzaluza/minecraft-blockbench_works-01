@@ -4,10 +4,10 @@ My first hobby works made with Blockbench
 
 ## Setup
 
-To include these resources into your local `development_resource_packs`, run the setup script as administrator:
+To include these packs into your local Minecraft development folder, run the setup script as administrator:
 
 ```ps1
-# Create symbolic links of the resources.
+# Create symbolic links of the packs.
 # Please set `$mojangPath` in your environment in advance.
 .\setup.ps1
 ```
