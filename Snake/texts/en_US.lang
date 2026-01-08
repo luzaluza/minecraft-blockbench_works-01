@@ -1,2 +1,2 @@
-entity.myname:snake.name=Snake
-item.spawn_egg.entity.myname:snake.name=Spawn Snake
+entity.ibu_craft:snake.name=Snake
+item.spawn_egg.entity.ibu_craft:snake.name=Spawn Snake

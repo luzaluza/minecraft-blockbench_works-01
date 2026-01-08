@@ -1,7 +1,7 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"myname:snake": {
+			"ibu_craft:snake": {
 				"events": {
 					"flop": {
 						"pitch": 1,
