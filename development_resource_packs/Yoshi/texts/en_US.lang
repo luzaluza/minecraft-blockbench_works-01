@@ -1,0 +1,3 @@
+entity.ibu_craft:yoshi.name=Yoshi
+item.spawn_egg.entity.ibu_craft:yoshi.name=Spawn Yoshi
+action.hint.exit.ibu_craft:yoshi=Tap sneak to dismount

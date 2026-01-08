@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Yoshi",
+		"description": "Yoshi Behavior Pack",
+		"uuid": "8de618b1-7396-5c0e-5196-f8d6b3d456ac",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "17718a4e-bc0a-4ae0-9931-5e4c2eaa3a2b",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "e62a7765-0e4d-2ffe-08e3-4d996758b6a3",
+			"version": [1, 0, 0]
+		}
+	]
+}
