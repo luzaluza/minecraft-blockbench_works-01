@@ -8,6 +8,7 @@ To include these resources into your local `development_resource_packs`, run the
 
 ```ps1
 # Create symbolic links of the resources.
+# Please set `$mojangPath` in your environment in advance.
 .\setup.ps1
 ```
 
