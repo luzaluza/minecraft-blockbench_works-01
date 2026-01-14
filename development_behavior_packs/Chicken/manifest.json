@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Chicken",
+		"description": "Chicken Behavior Pack",
+		"uuid": "f276adbb-353b-0f8d-6b09-b91d40cd1a70",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "fe4d70bb-fe44-d901-e192-0bebfcb26c0c",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "cfe54344-7b18-e50c-d74f-3dabfad9c902",
+			"version": [1, 0, 0]
+		}
+	]
+}

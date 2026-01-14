@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Chicken",
+		"description": "Chicken Resource Pack",
+		"uuid": "cfe54344-7b18-e50c-d74f-3dabfad9c902",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Chicken",
+			"type": "resources",
+			"uuid": "4e401fd8-6e54-2fa9-8b49-597f83fbe8fb",
+			"version": [1, 0, 0]
+		}
+	]
+}
