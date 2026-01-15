@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "kakashi",
+		"description": "kakashi Behavior Pack",
+		"uuid": "654365a8-64c7-b52c-ec2a-98bd1b42d68d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "dac3eab6-ec65-cac4-a38e-d3bd28ecbfca",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8687bcbe-9ab1-ac54-f359-3675dbb19615",
+			"version": [1, 0, 0]
+		}
+	]
+}
