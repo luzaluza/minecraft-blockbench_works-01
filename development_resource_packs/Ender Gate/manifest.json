@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Ender Gate",
+		"description": "Ender Gate Resource Pack",
+		"uuid": "b8c25002-9471-178b-0c96-0dc8171e05bb",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Ender Gate",
+			"type": "resources",
+			"uuid": "95d67035-4c01-0ff5-248a-d90eddcc420f",
+			"version": [1, 0, 0]
+		}
+	]
+}

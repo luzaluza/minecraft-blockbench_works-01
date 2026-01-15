@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Ender Gate",
+		"description": "Ender Gate Behavior Pack",
+		"uuid": "3f06ba80-aa4d-c907-8fd2-fc4c3876229e",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "c6ae89a2-34b0-1b98-3036-a28b5995d991",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b8c25002-9471-178b-0c96-0dc8171e05bb",
+			"version": [1, 0, 0]
+		}
+	]
+}
