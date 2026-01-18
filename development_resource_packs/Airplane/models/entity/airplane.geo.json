@@ -1,0 +1,80 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.airplane",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 20, -16], "size": [9, 9, 13], "pivot": [1, 17, -8], "rotation": [0, -25, 0], "uv": [19, 19]},
+						{"origin": [-9, 20, -8], "size": [18, 9, 24], "uv": [8, 8]},
+						{"origin": [-9, 20, -8], "size": [18, 9, 24], "uv": [8, 8]},
+						{"origin": [-6, 27, -5], "size": [12, 9, 20], "uv": [15, 12]},
+						{"origin": [-4, 20, -19], "size": [8, 9, 2], "uv": [35, 30]},
+						{"origin": [-2, 20, -16], "size": [10, 9, 14], "pivot": [-1, 17, -8], "rotation": [0, 27.5, 0], "uv": [26, 18]}
+					]
+				},
+				{
+					"name": "steering_wheel",
+					"parent": "body",
+					"pivot": [0, 13, -7],
+					"cubes": [
+						{"origin": [-3, 31, -10], "size": [6, 5, 0], "uv": [2, 22]},
+						{"origin": [-3, 31, -10], "size": [5, 5, 0], "pivot": [0, 21, -3], "rotation": [0, 45, 0], "uv": [2, 22]},
+						{"origin": [-2, 31, -10], "size": [5, 5, 0], "pivot": [0, 21, -3], "rotation": [0, -45, 0], "uv": [3, 22]}
+					]
+				},
+				{
+					"name": "wheel_front_left",
+					"parent": "root",
+					"pivot": [10, 5, -13],
+					"cubes": [
+						{"origin": [2, 21, 15], "size": [6, 10, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "wheel_front_right",
+					"parent": "root",
+					"pivot": [-10, 5, -13],
+					"cubes": [
+						{"origin": [-8, 21, 15], "size": [6, 10, 10], "uv": [0, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "wheel_back_left",
+					"parent": "root",
+					"pivot": [10, 5, 13],
+					"cubes": [
+						{"origin": [9, 25, 1], "size": [16, 3, 10], "uv": [0, 0]},
+						{"origin": [25, 25, 7], "size": [8, 3, 4], "uv": [22, 6]},
+						{"origin": [-34, 25, 9], "size": [8, 3, 4], "uv": [22, 6]},
+						{"origin": [38, 25, -12], "size": [10, 3, 5], "pivot": [13, 18, -26], "rotation": [0, -37.5, 0], "uv": [21, 5]},
+						{"origin": [-37, 25, 28], "size": [10, 3, 5], "pivot": [-62, 18, 14], "rotation": [0, 40, 0], "uv": [21, 5]}
+					]
+				},
+				{
+					"name": "wheel_back_right",
+					"parent": "root",
+					"pivot": [-10, 5, 13],
+					"cubes": [
+						{"origin": [-26, 25, 3], "size": [17, 3, 10], "uv": [-11, 0], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

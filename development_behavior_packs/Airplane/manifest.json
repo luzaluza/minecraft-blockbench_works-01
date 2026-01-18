@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Airplane",
+		"description": "Airplane Behavior Pack",
+		"uuid": "f936fbc3-dd5b-038f-586e-7b17beda48fe",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "250421d6-e735-20c8-2f7c-7dce5608c3e4",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "9013e48b-7238-f770-11a9-2953836f5206",
+			"version": [1, 0, 0]
+		}
+	]
+}

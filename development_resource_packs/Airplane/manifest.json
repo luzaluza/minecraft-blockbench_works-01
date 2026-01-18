@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Airplane",
+		"description": "Airplane Resource Pack",
+		"uuid": "9013e48b-7238-f770-11a9-2953836f5206",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Airplane",
+			"type": "resources",
+			"uuid": "663151fd-4a38-ede5-b022-83259d26490a",
+			"version": [1, 0, 0]
+		}
+	]
+}
