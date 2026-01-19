@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Bear",
+		"description": "Bear Behavior Pack",
+		"uuid": "19d32dcd-ac31-69b7-ab85-d008361ff77e",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "82fa87ce-15b3-a49e-17ff-f48c813ea12e",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d059987f-ee3a-b175-b47e-44b859827079",
+			"version": [1, 0, 0]
+		}
+	]
+}

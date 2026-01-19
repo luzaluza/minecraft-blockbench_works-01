@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Bear",
+		"description": "Bear Resource Pack",
+		"uuid": "d059987f-ee3a-b175-b47e-44b859827079",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Bear",
+			"type": "resources",
+			"uuid": "a32fb074-6290-2d79-0a35-30a74f44f88b",
+			"version": [1, 0, 0]
+		}
+	]
+}

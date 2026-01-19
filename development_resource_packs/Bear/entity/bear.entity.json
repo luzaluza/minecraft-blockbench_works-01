@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:bear",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/bear"
+			},
+			"geometry": {
+				"default": "geometry.bear"
+			},
+			"animations": {
+				"walk": "animation.bear.walk",
+				"move": "animation.bear.move",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.bear.baby_transform"
+			},
+			"scripts": {
+				"scale": "1.2"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.polarbear.move"
+				},
+				{
+					"baby": "controller.animation.polarbear.baby"
+				}
+			],
+			"render_controllers": ["controller.render.polarbear"],
+			"spawn_egg": {
+				"base_color": "#5e2b00",
+				"overlay_color": "#5e2f00"
+			}
+		}
+	}
+}
