@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dragon",
+		"description": "Dragon Resource Pack",
+		"uuid": "d20ba768-6b74-9e50-81c0-58bc7b39f4ac",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Dragon",
+			"type": "resources",
+			"uuid": "3e66449e-5ec4-a065-de6a-d9657ebd0ed1",
+			"version": [1, 0, 0]
+		}
+	]
+}

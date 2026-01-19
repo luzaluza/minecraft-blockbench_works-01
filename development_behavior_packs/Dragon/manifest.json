@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dragon",
+		"description": "Dragon Behavior Pack",
+		"uuid": "4f9382a8-e395-c14f-c129-de47a9b7ef61",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "89e94461-1ea9-54fc-41cc-13e300d26257",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d20ba768-6b74-9e50-81c0-58bc7b39f4ac",
+			"version": [1, 0, 0]
+		}
+	]
+}
