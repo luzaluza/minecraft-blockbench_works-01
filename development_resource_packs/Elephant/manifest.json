@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Elephant",
+		"description": "Elephant Resource Pack",
+		"uuid": "ee95a976-2e9a-ed48-9f90-497c84b7af4b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Elephant",
+			"type": "resources",
+			"uuid": "303ed5fd-a21f-cfd8-40d6-95c7ae501414",
+			"version": [1, 0, 0]
+		}
+	]
+}

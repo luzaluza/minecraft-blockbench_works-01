@@ -1,0 +1,3 @@
+entity.ibu_craft:elephant.name=Elephant
+item.spawn_egg.entity.ibu_craft:elephant.name=Spawn Elephant
+action.hint.exit.ibu_craft:elephant=Tap sneak to dismount

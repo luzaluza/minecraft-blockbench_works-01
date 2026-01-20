@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Elephant",
+		"description": "Elephant Behavior Pack",
+		"uuid": "f225dd55-25ea-6158-140d-177a73f95e28",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "c7865dba-a231-0461-9e59-da17b01604bc",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ee95a976-2e9a-ed48-9f90-497c84b7af4b",
+			"version": [1, 0, 0]
+		}
+	]
+}
