@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:globe",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/globe"
+			},
+			"animations": {
+				"default_pose": "animation.globe.default_pose",
+				"no_pose": "animation.globe.no_pose",
+				"solemn_pose": "animation.globe.solemn_pose",
+				"athena_pose": "animation.globe.athena_pose",
+				"brandish_pose": "animation.globe.brandish_pose",
+				"honor_pose": "animation.globe.honor_pose",
+				"entertain_pose": "animation.globe.entertain_pose",
+				"salute_pose": "animation.globe.salute_pose",
+				"riposte_pose": "animation.globe.riposte_pose",
+				"zombie_pose": "animation.globe.zombie_pose",
+				"cancan_a_pose": "animation.globe.cancan_a_pose",
+				"cancan_b_pose": "animation.globe.cancan_b_pose",
+				"hero_pose": "animation.globe.hero_pose",
+				"wiggle": "animation.globe.wiggle",
+				"controller.pose": "controller.animation.armor_stand.pose",
+				"controller.wiggling": "controller.animation.armor_stand.wiggle"
+			},
+			"scripts": {
+				"initialize": ["variable.armor_stand.pose_index = 0;", "variable.armor_stand.hurt_time = 0;"],
+				"animate": ["controller.pose", "controller.wiggling"]
+			},
+			"geometry": {
+				"default": "geometry.globe"
+			},
+			"render_controllers": ["controller.render.armor_stand"],
+			"enable_attachables": true,
+			"spawn_egg": {
+				"base_color": "#004fff",
+				"overlay_color": "#0ef71f"
+			}
+		}
+	}
+}

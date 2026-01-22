@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Globe",
+		"description": "Globe Behavior Pack",
+		"uuid": "7eb86fcd-3850-a812-baeb-ed95de53a52b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "ddd5d178-7d4b-2e0f-7758-fb786c5d21b8",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "837b8ef4-c8d7-7bab-f297-f19dc909fac0",
+			"version": [1, 0, 0]
+		}
+	]
+}
