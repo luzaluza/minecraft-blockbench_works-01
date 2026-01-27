@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Magma King",
+		"description": "Magma King Resource Pack",
+		"uuid": "033a0159-8a22-cc86-bf00-4d76c5d673ae",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Magma King",
+			"type": "resources",
+			"uuid": "b3c831d9-21e9-02d6-d430-7efc6774de73",
+			"version": [1, 0, 0]
+		}
+	]
+}

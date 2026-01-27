@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Magma King",
+		"description": "Magma King Behavior Pack",
+		"uuid": "ccb23fcf-db52-d8fc-fa73-940ee9887942",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "4a105675-aab4-51e4-b9b7-6ad111fabc3c",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "033a0159-8a22-cc86-bf00-4d76c5d673ae",
+			"version": [1, 0, 0]
+		}
+	]
+}
