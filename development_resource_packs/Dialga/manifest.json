@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dialga",
+		"description": "Dialga Resource Pack",
+		"uuid": "79b61fc7-87bb-0287-8656-c59716f996da",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Dialga",
+			"type": "resources",
+			"uuid": "894a1d70-3a78-ad57-6d52-7c80ad2c6581",
+			"version": [1, 0, 0]
+		}
+	]
+}

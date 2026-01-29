@@ -1,0 +1,3 @@
+entity.ibu_craft:dialga.name=Dialga
+item.spawn_egg.entity.ibu_craft:dialga.name=Spawn Dialga
+action.hint.exit.ibu_craft:dialga=Tap sneak to dismount

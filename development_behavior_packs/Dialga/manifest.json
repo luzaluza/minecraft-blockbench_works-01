@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dialga",
+		"description": "Dialga Behavior Pack",
+		"uuid": "16338ae8-1ed0-832d-6866-4f57df8f1291",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "30085255-c9f2-d205-25a0-3061f2e5fb45",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "79b61fc7-87bb-0287-8656-c59716f996da",
+			"version": [1, 0, 0]
+		}
+	]
+}
