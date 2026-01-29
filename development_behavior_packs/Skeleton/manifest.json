@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Skeleton",
+		"description": "Skeleton Behavior Pack",
+		"uuid": "44f6f522-9916-83c6-3baf-261f81e9d8d4",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "12e0ddeb-b3ba-a91e-41cb-eb8d9381670a",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "c91c210e-92cd-ae71-8b89-86a35411c862",
+			"version": [1, 0, 0]
+		}
+	]
+}

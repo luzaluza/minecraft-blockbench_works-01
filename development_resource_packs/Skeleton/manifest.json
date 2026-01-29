@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Skeleton",
+		"description": "Skeleton Resource Pack",
+		"uuid": "c91c210e-92cd-ae71-8b89-86a35411c862",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Skeleton",
+			"type": "resources",
+			"uuid": "9b0a571f-b36a-92dd-502e-637aafe1f12f",
+			"version": [1, 0, 0]
+		}
+	]
+}
