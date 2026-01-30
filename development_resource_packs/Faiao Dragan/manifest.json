@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Faiao Dragan",
+		"description": "Faiao Dragan Resource Pack",
+		"uuid": "50eb64a2-537c-82ed-8931-7e5a4c4ebff9",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Faiao Dragan",
+			"type": "resources",
+			"uuid": "ddc1bf1c-6841-2574-aef2-4643809eee3b",
+			"version": [1, 0, 0]
+		}
+	]
+}

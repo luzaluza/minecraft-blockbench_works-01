@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.faiao_dragon",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 12, -6], "size": [12, 11, 12], "uv": [0, 0]},
+						{"origin": [-2, 17, -7], "size": [4, 6, 1], "uv": [15, 11]},
+						{"origin": [-33, 19, 19], "size": [0, 7, 12], "pivot": [-8, 3, 25], "rotation": [22.5, -67.5, 0], "uv": [-19, 0]},
+						{"origin": [-21, 20, 19], "size": [0, 7, 12], "pivot": [4, 4, 25], "rotation": [157.09233, -62.44349, -172.28924], "uv": [-19, 0]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Faiao Dragan",
+		"description": "Faiao Dragan Behavior Pack",
+		"uuid": "ba3a750f-e3c0-6985-7d2f-15b20ac74a8f",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "aa0d4e23-b0de-b002-1279-cca2c3587f0d",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "50eb64a2-537c-82ed-8931-7e5a4c4ebff9",
+			"version": [1, 0, 0]
+		}
+	]
+}
