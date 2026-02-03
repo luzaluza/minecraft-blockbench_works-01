@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Ghost",
+		"description": "Ghost Behavior Pack",
+		"uuid": "48401592-d646-075f-a6e3-c29b09238569",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "fb17cc8b-ace2-4150-ee93-f7ba49079a04",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "836222bf-85bd-48aa-f64c-3fcf52e0c52b",
+			"version": [1, 0, 0]
+		}
+	]
+}

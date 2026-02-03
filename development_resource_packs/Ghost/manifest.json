@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Ghost",
+		"description": "Ghost Resource Pack",
+		"uuid": "836222bf-85bd-48aa-f64c-3fcf52e0c52b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Ghost",
+			"type": "resources",
+			"uuid": "a8a6e0c9-1eb5-723b-f5d8-08a632d288ff",
+			"version": [1, 0, 0]
+		}
+	]
+}
