@@ -1,0 +1,2 @@
+entity.ibu_craft:turtle.name=Turtle
+item.spawn_egg.entity.ibu_craft:turtle.name=Spawn Turtle

@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Turtle",
+		"description": "Turtle Resource Pack",
+		"uuid": "a0bf6d6b-ee1d-6248-b812-8d0415bdca9f",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Turtle",
+			"type": "resources",
+			"uuid": "6e8a9cf1-55d3-78d8-fb35-bec8b977de3c",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Turtle",
+		"description": "Turtle Behavior Pack",
+		"uuid": "b539fea6-2130-038e-f43c-01ec0a4b4be2",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "26742c6c-9d29-4d94-75c7-bcc9979aba8c",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a0bf6d6b-ee1d-6248-b812-8d0415bdca9f",
+			"version": [1, 0, 0]
+		}
+	]
+}
