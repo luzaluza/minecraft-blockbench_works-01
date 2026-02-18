@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mahoroa",
+		"description": "Mahoroa Behavior Pack",
+		"uuid": "6a27af48-078b-da98-8ad6-789b7c54c156",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "a5f88d35-eaf8-e9f9-48f1-648f6ed7da75",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "e0a89e3d-d868-e685-88f9-420b791c4c99",
+			"version": [1, 0, 0]
+		}
+	]
+}

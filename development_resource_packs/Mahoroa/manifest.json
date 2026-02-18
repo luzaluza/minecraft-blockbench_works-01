@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mahoroa",
+		"description": "Mahoroa Resource Pack",
+		"uuid": "e0a89e3d-d868-e685-88f9-420b791c4c99",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Mahoroa",
+			"type": "resources",
+			"uuid": "4e97fd61-2b7d-58ec-cc78-3af5dd88dbbc",
+			"version": [1, 0, 0]
+		}
+	]
+}
