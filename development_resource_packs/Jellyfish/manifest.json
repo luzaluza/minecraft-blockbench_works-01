@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Jellyfish",
+		"description": "Jellyfish Resource Pack",
+		"uuid": "221b91d7-1d0b-c183-1a31-7da25b84b528",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Jellyfish",
+			"type": "resources",
+			"uuid": "e85cbf8f-25ec-a212-4870-af3ca28862b6",
+			"version": [1, 0, 0]
+		}
+	]
+}

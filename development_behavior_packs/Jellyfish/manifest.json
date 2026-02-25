@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Jellyfish",
+		"description": "Jellyfish Behavior Pack",
+		"uuid": "79c604bd-a9c9-9f8f-c850-30b035cad966",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "f97ad9c6-9c4d-d388-0d12-daa50630a6ce",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "221b91d7-1d0b-c183-1a31-7da25b84b528",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ibu_craft:jellyfish",
+			"materials": {
+				"default": "glow_squid"
+			},
+			"textures": {
+				"default": "textures/entity/jellyfish"
+			},
+			"geometry": {
+				"default": "geometry.jellyfish"
+			},
+			"animations": {
+				"move": "animation.jellyfish.move",
+				"squid_rotate": "animation.jellyfish.rotate"
+			},
+			"scripts": {
+				"animate": ["move", "squid_rotate"]
+			},
+			"render_controllers": ["controller.render.glow_squid"],
+			"spawn_egg": {
+				"base_color": "#ffc1fd",
+				"overlay_color": "#ffffff"
+			}
+		}
+	}
+}
