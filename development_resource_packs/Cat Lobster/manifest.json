@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cat Lobster",
+		"description": "Cat Lobster Resource Pack",
+		"uuid": "b47e316b-d730-1a53-6d9c-0a04c88bfb86",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Cat Lobster",
+			"type": "resources",
+			"uuid": "20efe2f1-6499-c797-7248-a7a1420d4107",
+			"version": [1, 0, 0]
+		}
+	]
+}

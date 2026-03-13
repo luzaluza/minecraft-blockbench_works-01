@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cat Lobster",
+		"description": "Cat Lobster Behavior Pack",
+		"uuid": "f49bd241-15e2-d7df-f6a0-c892dc0c02a9",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_craft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "2338ba9e-ff81-acb2-b0df-59927d373a73",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b47e316b-d730-1a53-6d9c-0a04c88bfb86",
+			"version": [1, 0, 0]
+		}
+	]
+}
