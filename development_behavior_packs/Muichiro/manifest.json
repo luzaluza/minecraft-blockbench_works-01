@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Muichiro",
+		"description": "Muichiro Behavior Pack",
+		"uuid": "e09d58b0-b617-3a3b-f969-d371227450ce",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_kraft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.3"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "6b0d0c2a-091c-3332-782d-dd24b1d62704",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ff4353e9-24c0-8d76-b286-526bd6183c0a",
+			"version": [1, 0, 0]
+		}
+	]
+}

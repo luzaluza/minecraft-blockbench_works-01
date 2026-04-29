@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Muichiro",
+		"description": "Muichiro Resource Pack",
+		"uuid": "ff4353e9-24c0-8d76-b286-526bd6183c0a",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["ibu_kraft"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.3"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Muichiro",
+			"type": "resources",
+			"uuid": "f6e5eef2-61e4-5173-91dd-cee20ef6c779",
+			"version": [1, 0, 0]
+		}
+	]
+}
